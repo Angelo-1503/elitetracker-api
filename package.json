@@ -1,0 +1,29 @@
+{
+  "name": "elitetracker-api",
+  "version": "0.0.0",
+  "description": "API para o Elite Tracker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "typescript",
+    "elite-tracker"
+  ],
+  "author": {
+    "name": "Angelo Giroletto",
+    "url": "https://github.com/Angelo-1503"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "eslint": "^9.27.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

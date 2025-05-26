@@ -4,7 +4,11 @@
   "description": "API para o Elite Tracker",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint . --ext .js,.ts,.mjs",
+    "lint:fix": "eslint . --ext .js,.ts,.mjs --fix",
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --write"
   },
   "keywords": [
     "api",
@@ -18,12 +22,18 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/express": "^5.0.2",
-    "eslint": "^9.27.0",
+    "biome": "^0.3.3",
+    "globals": "^16.1.0",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "dayjs": "^1.11.13",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "yarn": "^1.22.22",
+    "zod": "^3.25.28"
   }
 }

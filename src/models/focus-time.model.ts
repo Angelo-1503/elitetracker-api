@@ -17,4 +17,4 @@ const FocusTimeSchema = new Schema(
   },
 );
 
-export const habitModel = model('Habit', FocusTimeSchema);
+export const focusTimeModel = model('FocusTime', FocusTimeSchema);

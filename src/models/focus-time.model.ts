@@ -2,14 +2,9 @@ import { Schema, model } from 'mongoose';
 
 const FocusTimeSchema = new Schema(
   {
-    timeFrom: {
-      type: Date,
-      required: true,
-    },
-    timeTo: {
-      type: Date,
-      required: true,
-    },
+    timeFrom: Date,
+    timeTo: Date,
+    userId: String,
   },
   {
     versionKey: false,

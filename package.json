@@ -1,0 +1,34 @@
+{
+	"name": "elitetracker-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx watch src/server.ts"
+	},
+	"keywords": [
+		"api",
+		"express",
+		"typescript",
+		"elitetracker"
+	],
+	"author": {
+		"name": "Angelo",
+		"url": "https://github.com/Angelo-1503"
+	},
+	"license": "ISC",
+	"description": "api para o elite-tracker",
+	"devDependencies": {
+		"@biomejs/biome": "2.0.0",
+		"@types/express": "^5.0.3",
+		"tsx": "^4.20.3",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"axios": "^1.10.0",
+		"dayjs": "^1.11.13",
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0",
+		"mongoose": "^8.16.0",
+		"zod": "^3.25.67"
+	}
+}
